@@ -176,7 +176,7 @@
 
     <div class="card">
       <h2>💾 2. 기기 저장과 안드로이드 자동 백업</h2>
-      <p>클리어 기록, 승률, IQ 점수, 업적, 보유 힌트 수량, 테마 등 설정은 기기의 로컬 저장소(localStorage)에 저장됩니다.</p>
+      <p>클리어 기록, 승률, Logic Score, 업적, 보유 힌트 수량, 테마 등 설정은 기기의 로컬 저장소(localStorage)에 저장됩니다.</p>
       <ul>
         <li><strong>안드로이드 자동 백업</strong>: 기기의 [설정] &gt; [Google] &gt; [백업]이 켜져 있으면, 안드로이드 운영체제가 이 앱의 데이터를 이용자 본인의 Google 드라이브에 자동으로 복사합니다. 앱을 삭제한 뒤 다시 설치하면 이 사본이 복원되므로, 이전 기록(보유 힌트 수량 등)이 그대로 남아 있을 수 있습니다. 이 기능은 기기 설정에서 끌 수 있습니다.</li>
       </ul>
@@ -187,7 +187,7 @@
       <p>기기에 Google Play 게임즈 프로필이 있으면 앱을 시작할 때 자동으로 로그인되며, [설정]에서 직접 로그인할 수도 있습니다. 로그인되어 있는 동안 다음이 이루어집니다.</p>
       <ul>
         <li><strong>자동 클라우드 백업</strong>: 게임에서 이길 때마다, 그리고 [설정]의 [클라우드에 지금 백업]을 누를 때 진행 기록(통계, 업적, 보유 힌트, 설정, 일일 도전 기록, 이전 기록 재생용 데이터, 이 백업을 구분하는 Google Play 게임즈 플레이어 ID)이 <strong>Google Play 게임즈 저장 데이터</strong>로 저장됩니다.</li>
-        <li><strong>순위표</strong>: IQ 점수가 Google Play 게임즈 순위표에 제출됩니다. 순위표는 Play 게임즈 프로필 공개 설정에 따라 다른 이용자에게 보일 수 있습니다.</li>
+        <li><strong>순위표</strong>: Logic Score가 Google Play 게임즈 순위표에 제출됩니다. 순위표는 Play 게임즈 프로필 공개 설정에 따라 다른 이용자에게 보일 수 있습니다.</li>
       </ul>
       <p>이 데이터는 이용자 본인의 Google 계정에 보관되며 Google의 <a href="https://policies.google.com/privacy" target="_blank">개인정보처리방침</a>이 적용됩니다. 로그인하지 않으면 위 전송은 일어나지 않습니다.</p>
     </div>
@@ -225,7 +225,7 @@
       <p>Sudoku(개발자: K2Bact)의 데이터는 아래 방법으로 삭제할 수 있습니다.</p>
       <ul>
         <li><strong>기기에 저장된 데이터</strong>: 앱의 [설정] &gt; [개인정보 보호] &gt; [모든 로컬 데이터 초기화]를 누르거나 앱을 삭제하면 즉시 삭제됩니다.</li>
-        <li><strong>Google Play 게임즈 데이터</strong>(클라우드 백업, IQ 점수 순위표 기록): 이용자가 삭제할 때까지 보관됩니다. 앱 안의 초기화로는 지워지지 않으며, Google Play 게임즈 앱의 설정에서 이 게임의 데이터를 삭제할 수 있습니다.</li>
+        <li><strong>Google Play 게임즈 데이터</strong>(클라우드 백업, Logic Score 순위표 기록): 이용자가 삭제할 때까지 보관됩니다. 앱 안의 초기화로는 지워지지 않으며, Google Play 게임즈 앱의 설정에서 이 게임의 데이터를 삭제할 수 있습니다.</li>
         <li><strong>안드로이드 자동 백업 사본</strong>: 이용자가 삭제하거나 Google의 백업 정책에 따라 만료될 때까지 이용자의 Google 드라이브에 보관됩니다. Google 드라이브의 백업 관리에서 삭제할 수 있습니다.</li>
         <li><strong>1v1 대전 데이터</strong>: 따로 삭제할 필요가 없습니다. 매칭 대기 기록은 연결이 끊기면, 대전 메시지는 약 1분 뒤 또는 연결이 끊길 때 서버에서 자동으로 삭제됩니다. Firebase 익명 인증 식별자는 다른 정보와 연결되지 않습니다.</li>
       </ul>
@@ -260,7 +260,7 @@
 
     <div class="card">
       <h2>💾 2. On-Device Storage and Android Auto Backup</h2>
-      <p>Clear records, win rate, score (Logic Score, called Sudoku IQ in some languages), achievements, hint balance and settings such as your theme are kept in the device's local storage (localStorage).</p>
+      <p>Clear records, win rate, Logic Score, achievements, hint balance and settings such as your theme are kept in the device's local storage (localStorage).</p>
       <ul>
         <li><strong>Android Auto Backup</strong>: if backup is on in your device's Settings &gt; Google &gt; Backup, the Android operating system copies this app's data to your own Google Drive and restores it when you reinstall. Records from before an uninstall (your hint balance, for example) can therefore still be there after a fresh install. You can turn this off in your device settings.</li>
       </ul>
